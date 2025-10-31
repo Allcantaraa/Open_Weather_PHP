@@ -1,6 +1,5 @@
 <?php
-
-$api_key = "253ad4356b7925cb71f9cdf53da9d986";
+require 'config.php';
 $nome_cidade = $_REQUEST["cidade"] ?? '';
 $unidade = $_REQUEST['unidade'] ?? 'metric';
 
