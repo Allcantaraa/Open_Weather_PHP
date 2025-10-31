@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    transition: 0.2s linear;
+    background-color: #01012a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.header-left  {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header-left .header-left-img {
+    width: 30px;
+    height: 30px;
+}
+
+.header-left .header-left-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.header-button {
+    width: 5rem;
+    padding: 0.5rem;
+    background-color: #2f2f48;
+    border: none;
+    color: #fff;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-search {
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-search-subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.section-search-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.section-search-content-input {
+    width: 70%;
+    padding: 0.6rem;
+    background-color: #2f2f48;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+[type="search"]::placeholder {
+  color: #a8a8bb;
+  font-size: 1rem;
+}
+
+.section-search-content-button {
+    padding: 0.6rem;
+    background-color: #4046c8;
+    border: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.weather-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+.weather-content-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.weather-content-mural {
+    background: linear-gradient(to right, #4451d3, #222669);
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-content-mural-berlin {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.weather-content-mural-berlin h3 {
+    font-size: 2rem;
+}
+
+.weather-content-mural-graus {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.weather-content-mural-graus h3 {
+    font-size: 4rem;
+    font-family: 'Teko';
+}
+
+.weather-content-mural-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.for-cards {
+    display: flex;
+    padding: 2rem 0rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+
+.for-cards-status {
+    background-color: #2f2f48;
+    padding: 1.5rem 0rem;
+    border-radius: 0.5rem;
+    width: 20%;
+}
+
+.for-cards-status p {
+    padding: 0.3rem 0.7rem;
+    text-align: left;
+    color: #a8a8bb;
+    font-size: 1.2rem;
+}
+
+.seven-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    gap: 0.5rem;
+}
+
+.seven-cards p {
+    text-align: left;
+}
+
+.seven-cards-container {
+    display: flex;
+    padding: 2rem 0rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.sever-cards-prediction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f2f48;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    width: 15%;
+}
