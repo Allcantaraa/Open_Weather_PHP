@@ -207,3 +207,72 @@ main {
     border-radius: 0.5rem;
     width: 15%;
 }
+
+@media (max-width: 768px) {
+
+    .section-search-subtitle {
+        font-size: 1.8rem; 
+        margin-bottom: 1.5rem;
+    }
+
+    .section-search-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .section-search-content-input {
+        width: 100%;
+    }
+
+    .section-search-content-button {
+        width: 100%;
+        padding: 0.8rem;
+    }
+    .weather-content {
+        flex-direction: column;
+    }
+    .weather-content-mural {
+        flex-direction: column;
+        height: auto;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .weather-content-mural-berlin {
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .weather-content-mural-berlin h3 {
+        font-size: 1.5rem;
+    }
+
+    .weather-content-mural-graus h3 {
+        font-size: 3.5rem;
+    }
+
+    .for-cards {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .for-cards-status {
+        width: 100%;
+        padding: 1rem 1.5rem;
+    }
+
+    .for-cards-status p {
+        font-size: 1rem;
+    }
+    .seven-cards-container {
+        justify-content: flex-start;
+        overflow-x: auto;
+        gap: 1rem;
+        padding: 1rem 0rem;
+    }
+
+    .sever-cards-prediction {
+        width: 100px;
+        padding: 1rem;
+    }
+}
